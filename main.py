@@ -1,5 +1,5 @@
 import random
-jog = str(input('Escolha: ')).lower().strip()
+jog = str(input('Escolha entre par ou impar: ')).lower().strip()
 dado = random.randint(1, 20)
 escolha = 'par' if jog == 'impar' else 'impar'
 print ('Certo, eu escolho {}!'.format(escolha))
